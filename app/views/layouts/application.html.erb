@@ -12,4 +12,11 @@
   <body>
     <%= yield %>
   </body>
+  <footer>
+    Made by DB
+    <%= link_to "About", about_path %>
+    <%= link_to contact_path do %>
+      Contact
+    <% end %>
+  </footer>
 </html>
